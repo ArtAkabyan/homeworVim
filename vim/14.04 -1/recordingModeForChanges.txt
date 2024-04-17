@@ -1,0 +1,24 @@
+Open Vim and start recording a macro by pressing 'q'
+followed by a letter, let's say a, to choose register 'a':
+vim:
+1.Press 'qa:' to start recording in register a.
+
+2.Move the cursor to the beginning of the first line (<li> tag):
+0
+
+3.Enter insert mode and move the cursor to the desired position to modify the line.
+i:
+
+
+4.Move the cursor to where you want the modification to start, and replace the brackets:
+[Apr 01]
+
+5.Exit insert mode by pressing Esc.
+
+6.Move to the next line by pressing j.
+
+7.Stop recording the macro by pressing q.
+
+8.Replay the macro by pressing @a. Repeat this for the rest of the lines:
+
+9.Save and quit the file:
